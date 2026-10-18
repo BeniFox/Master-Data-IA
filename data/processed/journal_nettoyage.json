@@ -1,4 +1,8 @@
 {
   "lignes_initiales": 17609,
-  "lignes_finales": 17609
+  "doublons_supprimes": "240",
+  "dates_invalides_supprimees": "347",
+  "remises_remplacees": "1874",
+  "quantites_negatives_supprimees": "30",
+  "lignes_finales": 16992
 }
