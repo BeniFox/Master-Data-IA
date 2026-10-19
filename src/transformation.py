@@ -39,7 +39,7 @@ def prepare_features(df, products):
     result["commande_non_aboutie"] = (
         result["statut"]
         .str.lower()
-        .isin(["annulee", "annulée", "echec", "échouée"])
+        .isin(["annule", "retourne"])
         .astype(int)
     )
 
